@@ -1,0 +1,603 @@
+<!DOCTYPE html> <!-- © Wazinsky -->
+<html lang="pt-br"> <!--linguagem padrão-->
+    <head>
+        <meta charset= "utf-8"> <!--conf caracteres-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--tamanho do disp-->
+        <title> Tengu - Art Studio</title> <!--titulo-->
+        <link rel="icon" href="img/icon.png"> <!--icone-->
+        <!--Font Awesome -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <!--Google icons-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--cdn-->
+        <!-- MATERIALIZE CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> <!--cdn-->
+        <!-- CUSTOM CSS -->
+        <link rel="stylesheet" href="css/custom.css">
+
+    </head>
+    <body>
+   
+<!-- HEADER --> 
+        <header>
+
+            <!-- MENU MOBILE -->
+            <ul class="side-nav" id="menu-mobile">
+                <li><a class="hide-menu" href="#home">Home</a></li>
+                <li><a class="hide-menu" href="#sobre">Sobre Tengu</a></li>
+                <li><a class="hide-menu" href="#servicos">Projetos</a></li>
+                <li><a class="hide-menu" href="#unidades">Unidades</a></li>
+                <li><a class="hide-menu" href="#contato">Contatos</a></li>
+            </ul>
+
+            <div class="navbar-fixed"> <!--manter o menu fixo-->
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo_text">Tengu - Art Studio </h1>
+                    <a href=""><img class="logo_img" src="img/logo_tengu2.png" alt="tengu"> </a> <!--mudar a logo-->
+                    
+                    <ul class="right light hide-on-med-and-down"> <!--não aparecer pr mobile-->
+                        <li><a class="hide-on-large-only" href="#home">H</a></li>
+                        <li><a href="#sobre">Sobre Tengu</a></li>
+                        <li><a href="#servicos">Projetos</a></li>
+                        <li><a href="#unidades">Unidades</a></li>
+                        <li><a href="#contato">Contatos</a></li>
+                    </ul>
+                    
+                    <a href="#" data-activates="menu-mobile" class="button-collapse right"><i class="material-icons">menu
+                    </i></a>
+                </div>
+            </nav>
+        </div>
+        </header>
+
+<!-- HOME -->
+        <section class="home bloco scrollspy" id="home"> <!-- id faz o caminho de transição -->
+            <div class="row container banner">
+                <div class="col s12 center"> <!--centralizando texto-->
+                    <h2 class="white-text">TENGU</h2>
+                    <p class="white-text light">Há momentos em que a maior sabedoria é parecer não saber nada. Por isso, quando capaz,
+                         finja então ser incapaz; quando pronto, finja grande desespero; quando perto, 
+                         finja estar longe; quando longe, façam acreditar que está próximo.</p>
+                    <div class="row botoes">
+                       <a href="#sobre" class="btn btn large red darken-4"> Sobre nós </a>
+                       <a href="#contato" class="btn btn large grey darken-4"> Contato </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+<!-- SOBRE -->
+        <section class="sobre bloco scrollspy" id="sobre">
+            <div class="row container">
+                <div class="col s12 center">
+                    <h2 class="light titulo">AMATERASU</h2>
+                </div>
+
+                <div class="col s12 l6">
+                    <p>
+                        Eu vi a alvorada de um sol brando e gentil, nascendo em meio ao caos,
+                        vi uma Deusa de fogo surgir para travar uma guerra de 1000 gerações,
+                        contra um inimigo que outrora jamais havia sido enfrentado, tão pouco
+                        questionado, a vi cravar sua lança impiedosa enquanto lagrimas desciam
+                        em seu rosto entristecido, semblante esse que cortaria o coração
+                        até mesmo do mais frio dos homens, um reinado as custas de uma dor,
+                        jamais esquecida, jamais superada, nem mesmo o sol, segura suas lagrimas,
+                        nem mesmo o sol esquece o gosto do sangue. Amaterasu, não chore rios de fogo, 
+                        não por nós.
+                    </p>
+                </div>
+
+                <div class="col s12 l6">
+                    <div class="carousel carousel-slider" data-indicators="true">
+                        <a href="#" class="carousel-item">
+                            <img alt="Imagem institucional" src="img/banner-01.jpg">
+                        </a>
+                        <a href="#" class="carousel-item">
+                            <img alt="Imagem institucional" src="img/banner-02.jpg"">
+                        </a>
+                        <a href="#" class="carousel-item">
+                            <img alt="Imagem institucional" src="img/banner-03.jpg"">
+                        </a>
+                </div>
+            </div>
+        
+        </div>
+        <div class="row black-logo proposito-visao-valores">
+            <div class="container">
+                <article class="item col s12 m4 center">
+                    <h3 class ="light">Propósito</h3>
+                    <p class="light">意 </p>
+                </article>
+                
+                <article class="item col s12 m4 center">
+                    <h3 class ="light">Visão</h3>
+                    <p class="light">想</p>
+                </article>
+                
+                <article class="item col s12 m4 center">
+                    <h3 class ="light">Valores</h3>
+                <p class="light">格</p>
+                </article>
+
+            </div>
+        </div>
+        </section>
+    
+<!-- PROJETOS -->
+        <!-- Kitsune -->
+        <section class="servicos bloco scrollspy" id="servicos">
+            <div class="row container">
+                <div class="col s12 center">
+                    <h2 class="light titulo">PROJETOS</h2>
+                    <p class="light">
+                        A Tengu atua no mercado de Web Design com o proposito de criação de
+                        sites a nivel profissional, levando em conta o carater artistico, tornando cada projeto
+                        algo unico, tanto no mercado quanto para cada cliente, unimos a beleza e harmonização estética,
+                        ao design inteligente e eficiente. Veja o mundo através dos olhos da Tengu.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row container">
+                <!--Kitsune-->
+                <article class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/pilates.jpg" alt="Pilates" class="materialboxed">
+                            <a href="#kitsune-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                                <i class="material-icons">more_horiz</i>
+                            </a>
+
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title"> Pacote Kitsune </h3>
+                            <p> Praticidade, qualidade e agilizade de entrega</p>
+                        </div>
+                    </div>
+                </article>
+            <!-- Modal Kitsune -->
+                <div class="modal" id="kitsune-modal">
+                    <div class="modal-content">
+                        <h5 class="light"> KITSUNE </h5>
+                         <p class="light black-text"> O pacote Kitsune dispõe de um site de tema livre,
+                             no formato transitório de "one page", recursos como slides interativos e 
+                            design aconchegante estão inclusos, o pacote é criado visando a praticidade
+                            e satisfação do cliente que deseja algo rapido, porém prático. </p>
+                    </div>
+                    <h5 class="light"> Itens inclusos: </h5>
+                    <ul class="collection">
+                        <li class="collection-item">-Design responsivo</li>
+                        <li class="collection-item">-Facil atualização de conteúdo</li>
+                        <li class="collection-item">-Arquitetura simplificada</li>
+                        <li class="collection-item">-Tema geral a escolha do cliente</li>
+                        <li class="collection-item">-Garantia de um ano</li>
+                    </ul>
+
+                    <div class="modal-footer">  
+                        <a class="btn black-logo modal-action modal-close"> Sair </a> <!--botão de sair -->
+                    </div>
+                </div>
+
+                <!--Saru-->
+                <article class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/nutricao.jpg" alt="Nutrição" class="materialboxed">
+                            <a href="#saru-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                                <i class="material-icons">more_horiz</i>
+                            </a>
+
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title"> Pacote Saru </h3>
+                            <p>Desingn artistico, publico específico</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Modal Saru -->
+                <div class="modal" id="saru-modal">
+                    <div class="modal-content">
+                        <h5 class="light"> SARU </h5>
+                         <p class="light black-text"> O pacote Saru dispõe de um site de tema livre,
+                            no formato transitório de "one page", recursos como slides interativos e 
+                            design aconchegante estão inclusos, além de interatividade com o usuário aprimorada,
+                            o pacote é criado visando o foco no cliente, provendo o melhor suporte possível
+                            de maneira rápida e eficiente. </p>
+                    </div>
+                    <h5 class="light"> Itens inclusos: </h5>
+                    <ul class="collection">
+                        <li class="collection-item">-Design responsivo</li>
+                        <li class="collection-item">-Facil atualização de conteúdo</li>
+                        <li class="collection-item">-Arquitetura simplificada</li>
+                        <li class="collection-item">-Tema geral a escolha do cliente</li>
+                        <li class="collection-item">-Garantia de um ano</li>
+                    </ul>
+
+                    <div class="modal-footer">  
+                        <a class="btn black-logo modal-action modal-close"> Sair </a> <!--botão de sair -->
+                    </div>
+                </div>
+
+                <!--Kuma-->
+                <article class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/fisioterapia.jpg" alt="Fisioterapia" class="materialboxed">
+                            <a  href="#kuma-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                                <i class="material-icons">more_horiz</i>
+                            </a>
+
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title"> Pacote Kuma </h3>
+                            <p> Design artistico exclusivo</p>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Modal Kuma -->
+                <div class="modal" id="kuma-modal">
+                    <div class="modal-content">
+                        <h5 class="light"> KUMA </h5>
+                         <p class="light black-text"> O pacote Saru dispõe de um site de tema artistico exclusivo,
+                            no formato Tengu de criação, recursos como slides interativos, interações com usuário aprimorada,
+                            server dedicado a alto trafego e design moderno estão inclusos, 
+                            o pacote é criado visando ganho de clientes e crescimento de empresas
+                            de maneira rapida, provendo o melhor suporte possível
+                            de maneira rápida e eficiente, além de uma cara nova e unica para a marca e(ou) empresa. </p>
+                    </div>
+                    <h5 class="light"> Itens inclusos: </h5>
+                    <ul class="collection">
+                        <li class="collection-item">-Design responsivo</li>
+                        <li class="collection-item">-Atualização de conteúdo durante três meses sem custo</li>
+                        <li class="collection-item">-Arquitetura moderna e artistica</li>
+                        <li class="collection-item">-Tema exclusivo a escolha do cliente</li>
+                        <li class="collection-item">-Servidor de hospedagem incluso</li>
+                        <li class="collection-item">-Garantia de um ano e meio</li>
+                    </ul>
+
+                    <div class="modal-footer">  
+                        <a class="btn black-logo modal-action modal-close"> Sair </a> <!--botão de sair -->
+                    </div>
+                </div>
+
+                <!--Okami-->
+                <article class="col s12 m6 l3">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/funcional.jpg" alt="Funcional" class="materialboxed">
+                            <a href="#okami-modal" class="btn btn-floating halfway-fab red-logo modal-trigger">
+                                <i class="material-icons">more_horiz</i>
+                            </a>
+
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title"> Pacote Okami </h3>
+                            <p> Projeto web artistico completo</p>
+                        </div>
+                    </div>
+                </article>
+                <!-- Modal Okami -->
+
+                <div class="modal" id="okami-modal">
+                    <div class="modal-content">
+                        <h5 class="light"> OKAMI </h5>
+                         <p class="light black-text"> O pacote Okami dispõe de um site completo artistico exclusivo e um app
+                            no formato Tengu plus de criação, recursos como slides interativos, interações com usuário aprimorada,
+                            server dedicado a alto trafego, atualizações semanais, repaginação artistica anual e 
+                            design moderno e inteligente estão inclusos, 
+                            o pacote é criado visando o alto ganho de clientes e crescimento de empresas
+                            de maneira rapida, provendo o melhor suporte possível
+                            de maneira rápida e eficiente, além de uma cara unica e exclusiva para a marca e(ou) empresa. </p>
+                    </div>
+                    <h5 class="light"> Itens inclusos: </h5>
+                    <ul class="collection">
+                        <li class="collection-item">-Design responsivo</li>
+                        <li class="collection-item">-Atualização de conteúdo durante 6 meses sem custo</li>
+                        <li class="collection-item">-Atualização anual artistica sem custo durante dois anos</li>
+                        <li class="collection-item">-Arquitetura moderna e inteligente</li>
+                        <li class="collection-item">-Tema exclusivo a escolha do cliente</li>
+                        <li class="collection-item">-Servidor de hospedagem incluso</li>
+                        <li class="collection-item">-Aplicativo personalizavel de interação com cliente</li>
+                        <li class="collection-item">-Garantia de dois anos</li>
+                    </ul>
+
+                    <div class="modal-footer">  
+                        <a class="btn black-logo modal-action modal-close"> Sair </a> <!--botão de sair -->
+                    </div>
+                </div>
+
+            </div>
+            
+        </section>
+<!-- UNIDADES -->
+        <section class="unidades bloco scrollspy" id="unidades">
+                <div class="row container">
+                    <div class="col s12 center">
+                        <h2 class="light titulo white-text">Unidades</h2>
+                        <p class="light">
+                            A Tengu atua no mercado de Web Design com o proposito de criação de
+                            sites a nivel profissional, levando em conta o carater artistico, tornando cada projeto
+                            algo unico, tanto no mercado quanto para cada cliente, unimos a beleza e harmonização estética,
+                            ao design inteligente e eficiente. Veja o mundo através dos olhos da Tengu.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row container">
+                    <!-- BH -->
+                    <article class="col s12 l6">
+                        <div class="card horizontal">
+                            <div class="card-image card-image-horizontal">
+                                <img src="img/bh.jpg" alt="Belo Horizonte">
+                            </div>
+
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h3 class="card-title light">Belo Horizonte</h3>
+                                    <p class="light">
+                                        <i class="material-icons left">phone</i> 123 321 123 <br>
+                                        <i class="material-icons left">email</i>Tengu@Design.com<br>
+                                        <i class="material-icons left">location_on</i> Av. Belo Horizonte,123
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                     <!-- SALVADOR -->
+                    <article class="col s12 l6">
+                        <div class="card horizontal">
+                            <div class="card-image card-image-horizontal">
+                                <img src="img/salvador.jpg" alt="Salvador">
+                            </div>
+
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h3 class="card-title light">Salvador</h3>
+                                    <p class="light">
+                                        <i class="material-icons left">phone</i> 321 123 321 <br>
+                                        <i class="material-icons left">email</i>Tengu@Design.com<br>
+                                        <i class="material-icons left">location_on</i> Av. Salvador,462
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- RIO DE JANEIRO -->
+                    <article class="col s12 l6">
+                        <div class="card horizontal">
+                            <div class="card-image card-image-horizontal">
+                                <img src="img/rj.jpg" alt="Rio de Janeiro">
+                            </div>
+
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h3 class="card-title light">Rio de Janeiro</h3>
+                                    <p class="light">
+                                        <i class="material-icons left">phone</i> 456 654 456 <br>
+                                        <i class="material-icons left">email</i>Tengu@Design.com<br>
+                                        <i class="material-icons left">location_on</i> Av. Copacabana,752
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- CURITIBA -->
+                    <article class="col s12 l6">
+                        <div class="card horizontal">
+                            <div class="card-image card-image-horizontal">
+                                <img src="img/sp.jpg" alt="Curitiba">
+                            </div>
+
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h3 class="card-title light">Curitiba</h3>
+                                    <p class="light">
+                                        <i class="material-icons left">phone</i> 419 856 262 <br>
+                                        <i class="material-icons left">email</i>Tengu@Design.com<br>
+                                        <i class="material-icons left">location_on</i> Av. Marechal Floreano,128
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+        </section>
+
+<!-- CONTATOS -->
+        <section class=" contato bloco scrollspy" id="contato">
+            <div class="row container">
+                    <div class="col s12 center">
+                        <h2 class="titulo light"> Contato </h2>
+                    </div>
+                    <div class="col s12 m6 l4 hide-on-med-only">
+                        <div class="mapa transparente">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1
+                            273.8796287520315!2d-49.26973524414325!3d-25.435732730148985!2m3!1f0
+                            !2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce46ec8ff7713%3A0x52
+                            bfe59b34d3212a!2sEdif%C3%ADcio%20Central%20Station!5e0!3m2!1spt-BR!2
+                            sbr!4v1578246901540!5m2!1spt-BR!2sbr" width="400" height="300" 
+                            frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        
+                    </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+                <div class="informações">
+                <h4> Redes sociais </h4>
+                <p class="light"> Fique por dentro das novidades, receba dicas ou mostre ao mundo
+                    que você faz parte da Tengu!</p>
+                <a href="#" class="btn-floating red-logo"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="btn-floating red-logo"><i class="fa fa-google"></i></a>
+                <a href="#" class="btn-floating red-logo"><i class="fa fa-twitter"></i></a>
+
+                <h4> Endereço </h4>
+                <p class="light">
+                    Av. Mal. Floriano Peixoto, 696 - Centro, Curitiba - PR
+                </p>
+
+                <h4> Contatos </h4>
+                <p class="light">
+                    (41) 9-9658-2585 <br>
+                    (11) 9-8533-5872 <br>
+                    (31) 9-9258-4321
+                </p>
+
+                </div>
+            </div>
+            
+            <div class="col s12 m6 l4">
+                <p class="formulario white black-text">
+                    <h4> Fale conosco </h4>
+                    <p class="light"> Dúvidas, criticas ou sujestões? Entre em contato,
+                        a Tengu agradece seu feedback.</p>
+
+                        <form action="" method="post">
+                            <div class="input-field">
+                                <input type="text" name="name" id="name">
+                                <label for="name">Seu nome</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input type="email" name="email" id="email">
+                                <label for="email">Seu email</label>
+                            </div>
+
+                            <div class="input-field">
+                                <input type="text" name="assunto" id="assunto">
+                                <label for="assunto">Assunto</label>
+                            </div>
+
+                            <div class="input-field">
+                                <textarea id="message" class="materialize-textarea"></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+
+                            <button class="btn red-logo" type="submit"> Enviar </button>
+
+                        </form>
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+<!-- DEPOIMENTOS -->
+        <div class="depoimentos grey-logo">
+            <div class="row container">
+                <div class="col s12 center">
+                    <h2 class="titulo white-text light"> Depoimentos</h2>
+                </div>
+
+                <div class="col s12 m4 center">
+                    <img src="img/depo1.jpg" class="circle responsive-img" alt="1º Depoimento">
+                    <p class="light white-text"> Umas das minhas melhores escolhas no ramo profissional foi sem 
+                        duvida confiar a imagem online da minha empresa a equipe da Tengu, fizeram um ótimo trabalho
+                        sem duvidas, perfeito, só tenho elogios a eles.
+                    </p>
+                    <h4 class="light white-text">Orlando Carvalho</h4>
+                    <p class="white-text">
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+
+                    </p>
+                </div>
+
+                <div class="col s12 m4 center">
+                    <img src="img/depo3.jpg" class="circle responsive-img" alt="2º Depoimento">
+                    <p class="light white-text"> Equipe extremamente profissional e simpática.
+                    </p>
+                    <h4 class="light white-text">Maria Blum</h4>
+                    <p class="white-text">
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        
+                    </p>
+                </div>
+
+                <div class="col s12 m4 center">
+                    <img src="img/depo2.jpg" class="circle responsive-img" alt="3º Depoimento">
+                    <p class="light white-text"> Foi um prazer trabalhar com a Tengu, conseguiram entregar meu projeto
+                        em menos de uma semana, ganharam minha confiança e por conta disso fica aqui minha recomendação.
+                    </p>
+                    <h4 class="light white-text">James Fritz</h4>
+                    <p class="white-text">
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>
+                        <i class="material-icons">stars</i>                
+                </p>
+            </div>
+        </div>
+
+<!-- RODAPÉ -->
+        <footer class="rodape">
+            <div class="row container center">
+                <img src="img/logo_tengu2.png" class="logo_img">
+                <p class="">© Tengu corp. 2019 - Todos os direitos reservados </p>
+            </div>
+
+        </footer>
+    
+
+<!-- JQUERRY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>"></script> <!--cdn-->
+
+
+<!-- MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> <!--cdn-->
+
+<!-- JAVASCRIPT -->
+        <script>
+            // INICIALIZAÇÃO
+            $(document).ready(function(){
+                // MENU MOBILE
+                $(".button-collapse").sideNav();
+                // LINK INTERNO 
+                $(".scrollspy").scrollSpy({ //deixa o corte de paginas suaves
+                    scrollOffset: 0
+                })
+                // CAROUSEL
+                $(".carousel.carousel-slider").carousel({
+                    fullWidth:true
+                });
+                // MODAL
+                $(".modal").modal();
+                // ESCONDER MENU MOBILE AO CLICAR
+                $(".hide-menu").click(function(){
+                   $(".button-collapse").sideNav("hide"); 
+                });
+                // AUTOPLAY CAROUSEL
+                function autoplay(){
+                    $(".carousel").carousel("next");
+                    setTimeout(autoplay, 4500);
+                }
+
+                autoplay();
+
+            });
+
+            $(window).on("scroll", function(){
+                if($(window).scrollTop() > 100) {
+                    $(".navbar").addClass("nav-color");
+                } else {                      //tela que desaparece com scroll
+                    $(".navbar").removeClass("nav-color");
+                }
+            });
+
+        </script>
+
+    </body>
+</html>
+<!-- Code feito por Jhonatan de Carvalho - 05/01/2019. -->
